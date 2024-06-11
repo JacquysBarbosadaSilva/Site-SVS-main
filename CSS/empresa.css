@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+/* --------------------Nav-------------------- */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    position: relative;
+    background-color: #1A222f;
+    padding: 5px 0px; 
+    list-style-type: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+}
+
+nav .nav-links ul {
+    margin-right: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav-links ul img {
+    margin-left: 30px;
+    width: 80px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+}
+
+nav .nav-links ul li a {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    padding: 15px;
+
+}
+
+nav div ul li a:hover {
+
+    border-bottom: 1px solid;
+    border-radius: 10px;
+}
+
+/* --------------------Empressa informações-------------------- */
+
+main{
+    background-color: white;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    margin-bottom: 225px;
+    padding: 0.5em 1em;
+    color: white;
+    font-size: 100px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    line-height: 1.2;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    border-bottom: 2px solid black;
+    width: 1200px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+#fundo-missoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100%;
+    background-image: url(../img/Fundo\ Empresa.jpg);
+    background-size: cover;
+}
+
+.missao{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.formatacao{
+    position: relative;
+    width: 400px;
+    height: 600px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 27px;
+    margin-top: 80px;
+}
+
+#img-missao{
+    height: 50%;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.overlay {
+    shape-outside: margin-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1A222f;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.formatacao:hover .overlay {
+    opacity: 1;
+}
+  
+.text {
+    text-align: center;
+    list-style-type: none;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.text li{
+    padding: 20px;
+}
+.valores{
+    background-color: white;
+}
+
+.titulo-sections{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 35px;
+    align-items: center;
+}
+
+.text-valores p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-top: 30px;
+    width: 780px;
+    line-height: 45px;
+    text-align: justify;
+    align-items: center;
+}
+
+.img-valores{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+    margin-top: 100px;
+}
+.right{
+    margin: auto;
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.text-valores{
+    width: 45%;
+}
+
+.text-valores h3{
+    font-size: 35px;
+}
+
+.left{
+    margin: auto;
+    width: 100%;
+    height: 80vh;
+    background-color: #1a222f48;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.img-integrantes{
+    width: 300px;
+}
+
+.integrantes {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.fotos {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.521);
+    transition: transform 0.3s ease-in-out;
+}
+
+.fotos:hover {
+    transform: scale(1.05);
+}
+
+.img-integrantes {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fotos:hover .info {
+    opacity: 1;
+}
+
+.info p {
+    margin: 5px 0 0;
+    font-weight: 300;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* --------------------------Footer------------------------------ */
+footer {
+    margin-top: 20px;
+    position: static;
+    background-color: #1A222f;
+    color: aliceblue;
+    padding: 20px;
+    bottom: 0;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+footer div ul li{
+    list-style-type: none;
+}
+
+.contato{
+    border-right: 2px solid white;
+}
+
+.telefone{
+    border-right: 2px solid white;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.footer h2{
+    border: none;
+    width: 100%;
+}
+
+button{
+    background-color: black; 
+    color: #fff; 
+    padding: 10px 20px; 
+    width: 80px;
+    height: 30;
+    border: none; 
+    border-radius: 3px; 
+    font-size: 12px; 
+    font-weight: bold;
+    cursor: pointer; 
+}  
+
+button a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.botao{
+    margin: 0 auto;
+    display: block;
+    padding: 10px !important;
+}
+
+input{
+    padding: 5px; 
+    margin-bottom: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 3px; 
+    font-size: 14px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

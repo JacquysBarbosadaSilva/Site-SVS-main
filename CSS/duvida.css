@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* --------------------Nav-------------------- */
+header {
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+
+nav {
+    background-color: #1A222f;
+    padding: 5px 0px; 
+    list-style-type: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+}
+
+nav .nav-links ul {
+    margin-right: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav-links ul img {
+    margin-left: 30px;
+    width: 80px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+}
+
+nav .nav-links ul li a {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    padding: 15px;
+
+}
+
+nav div ul li a:hover {
+    border-bottom: 1px solid;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 250px;
+    font-size:xx-large;
+}
+
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+button{
+    background-color: black; 
+    color: #fff; 
+    padding: 10px 20px; 
+    width: 80px;
+    height: 30;
+    border: none; 
+    border-radius: 3px; 
+    font-size: 12px; 
+    font-weight: bold;
+    cursor: pointer; 
+}  
+
+button a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.botao{
+    margin: 0 auto;
+    margin-top: 20px;
+    display: block;
+    padding: 10px !important;
+}

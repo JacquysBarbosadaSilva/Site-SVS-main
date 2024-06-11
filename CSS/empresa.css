@@ -109,10 +109,11 @@ h2{
 .missao{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 50px;
     margin-top: 50px;
-    width: 100%;
-
+    width: 90%;
+    margin: 0 auto;
 }
 
 .img{
@@ -122,16 +123,16 @@ h2{
 }
 
 .formatacao{
+
     position: relative;
-    width: 400px;
-    height: 600px;
+    width: 450px;
+    height: 550px;
     overflow: hidden;
     border: 1px solid #ccc;
     border-radius: 8px;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     z-index: 0;
-    
 }
 
 h3{
@@ -235,18 +236,17 @@ h3{
 }
 
 .img-integrantes{
-    width: 300px;
+    width: 100px;
 }
 
 .integrantes {
     margin: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
-    max-width: 800px;
+    max-width: 1100px;
     width: 100%;
     padding: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     border-radius: 3px;
 }
@@ -254,7 +254,7 @@ h3{
 .fotos {
     position: relative;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 600px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.521);
     transition: transform 0.3s ease-in-out;
 }

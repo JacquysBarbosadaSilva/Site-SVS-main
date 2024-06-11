@@ -84,6 +84,7 @@ main h2 {
 
 .news-item:hover {
     transform: scale(1.05); 
+    cursor: pointer;
 }
 
 .news-item img {
